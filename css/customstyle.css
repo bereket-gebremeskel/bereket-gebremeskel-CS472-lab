@@ -4,8 +4,8 @@ body{
     padding: 0px 185px;
 }
 .main-container {
-    width: 100%;
-    /* margin-left: 165px; */
+    width: auto;
+    margin: auto;
     background-color: white;
 }
 .profile-pic {
@@ -23,6 +23,7 @@ body{
 }
 .cover-pic{
     border: 2px solid #000000b8;
+    width: 100%;
 }
 .profile-pic-section {
     margin-top: -172px;
@@ -31,7 +32,6 @@ body{
 .footer{
     background-color: black;
     display: flex;
-    justify-content: space-between;
     color:white;
     justify-content: space-between;
     padding: 7px 22px;
