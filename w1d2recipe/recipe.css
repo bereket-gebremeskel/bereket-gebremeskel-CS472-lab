@@ -1,0 +1,46 @@
+header h2{
+    background: #F0F0F0;
+    color: #A4A400;
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial;
+    font-size: 18pt;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.main-heading{
+    text-align: center;
+    font-size: 22pt;
+    font-weight: 800;
+}
+body{
+    color:#404040;
+    font-size: 11pt;
+    font-family: Georgia,Garamond,sans-serif;
+}
+a{
+    color:#A4A400;
+}
+hr{
+    background: #f0f0f0;
+    height: 1px;
+}
+span{
+    font-weight: 700;
+}
+abr {
+    text-decoration: underline;
+}
+.comments div{
+    background: #ffffa8;
+}
+
+.comments {
+    margin-left: 40px;
+}
+footer p{
+    font-family: monospace;
+   
+}
+footer{
+    display: block;
+    float: right;
+}
