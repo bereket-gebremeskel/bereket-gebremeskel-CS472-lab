@@ -1,147 +1,134 @@
-
-.header-img{
- max-width: 777px;
- margin: auto;
-}
-
-
-.header-img-behind{
-    background-image: url(../assets/movie_img/bannerbg.png);
-    min-height: 50px;
-    position: relative;
-    background-repeat: repeat-x;
-    top: -52px;
-    z-index: -1;
-}
-
-
-
-body{
+body {
     background-image: url(../assets/movie_img/background.png);
     font-size: 8pt;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Tahoma, sans-serif;
 }
-.movie-title > h2{
+
+
+/* style anner of the page and header*/
+
+#banner {
+    background-image: url(../assets/movie_img/bannerbg.png);
+    height: 50px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+#img-banner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.centered-header {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    font-family: Tahoma, sans-serif;
     font-size: 24pt;
-    font-weight: 700;
-    font-family: ' Tahoma, Verdana, sans-serif';
-    text-align: center;
-    text-shadow: 3px 3px #999999;
+    text-shadow: 2px 2px #999999;
 }
-.main-content{
-    max-width: 800px;
-    border: 4px solid grey;
-    margin: auto;
+
+
+/* styling content of the page */
+
+#content {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px grey solid;
     border-radius: 20px;
-    height: 100vh;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+
+/* styling review */
+
+#reviews {
+    width: 550px;
+}
+
+#review-text {
+    padding: 6px;
+    column-count: 2;
+    width: 517px;
+    column-gap: 2%;
+}
+
+
+/* flex box */
+
+.flex-container {
     display: flex;
 }
 
-.content-header-img{
+
+/* style general overview */
+
+#rating-icon {
     background-image: url(../assets/movie_img/rbg.png);
-    min-height: 83px;
-    position: relative;
-    background-repeat: repeat-x;
-    top: -85px;
-    z-index: -1;
-}
-.section-1{
-width: 550px ;
-height: 88px;
-}
-.section-1 > rottenbg_img{
-    max-height: 83px;
- 
-}
-p.rating-num {
-    font-size: 48pt;
-    font-weight: 700;
+    font-size: 46pt;
     color: red;
-    position: relative;
-    top: -225px;
-    left: 128px;
+    height: 83px;
 }
 
-.section-2 {
-    /* display: flex; */
-    padding:  8px;
-    border: 1px solid blue;
-    width: 250px;
+#rating {
+    vertical-align: top;
 }
-.section-2 .reviews{
-    border: 1px solid red;
-    /* height: 10px; */
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 69%;
-}
-.section-2 .general-veiw {
-    border: 1px solid black;
-    width: 250px;
-    height: 10px;
-}
-.reviews .qout-box{
-    display: inline;
-    max-width: 45%;
-    margin-right: 10px;
-    /* margin-left: 2%; */
-    border: 2px  solid grey;
-    padding: 8px;
-    border-radius: 10px;
-}
-/* .qout-box {
-    border: 2px  solid grey;
-    padding: 8px;
-    border-radius: 10px;
-} */
-.qout-box > img {
-    float: left;
-    margin-right: 5px;
-}
-.reviewer-personal-info{
-    border: 1px solid red;
-    /* height: 10px; */
-    display: flex;
 
-}
-.reviews .info{
-    display: inline;
-    max-width: 34%;
-    margin-right: 10px;
-    border: 2px  solid grey;
-    padding: 8px;
+.comment {
+    border: 2px solid gray;
     border-radius: 10px;
-}
-.info > img {
-    float: left;
-    margin-right: 5px;
-}
-.section-2 p {
-    margin-top: 0px;
-}
-.review {
-    display: grid;
-    margin-top: -283px;
-    grid-template-columns: 47% 47%;
-}
-.review > div{
-    /* width: 47%; */
-    margin: 0px 2px 0px 2px;
     padding: 8px;
+    font-size: 8pt;
+    font-weight: bold;
+    background-color: #E8DC9B;
+    margin: 0px;
 }
-.column1 > div{
-    float: left;
-    float: left;
-    margin-right: 6px;
+
+.comment-by {
+    font-style: italic;
+    margin-bottom: 20pt;
 }
-.column2 > div{
+
+.comment-by>img {
     float: left;
-    float: left;
-    margin-right: 6px;
 }
-.column1 > p{
-    margin-left: 10px;
+
+#no-of-reviews {
+    background-color: #A2B964;
+    text-align: center;
+    padding: 5px;
 }
-.user-qoute {
-    display: inline-flex;
+
+
+/* styling general overview */
+
+#general-overview {
+    width: 250px;
+    background-color: #A2B964;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#general-overview>dl {
+    padding: 10pt;
+}
+
+#general-overview dt {
+    font-weight: bold;
+}
+
+#general-overview dd {
+    margin-bottom: 10pt;
+}
+
+
+/* page validator style */
+
+.page-validator {
+    position: fixed;
+    bottom: 2px;
+    right: 2px;
+    font-size: 18px;
+    opacity: 50%;
 }
