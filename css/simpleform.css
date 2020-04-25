@@ -1,0 +1,15 @@
+nav{
+    background-color: #3fabe9 !important;
+}
+nav a{
+    color: white !important;
+}
+li.nav-item {
+    border-left: 1px solid white;
+    margin-left: 60px;
+}
+
+a.nav-link {
+    padding-left: 39px  !important;
+    font-size: 26px !important;
+}
