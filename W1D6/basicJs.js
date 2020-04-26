@@ -30,7 +30,7 @@ function maxOfThree(num1,num2,num3){
 
 function isVowel(a){
     if(a === undefined || a === null || a.length>1 || a.length<1){
-        return false
+        return false;
     }else{
         if(a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u'){
             return true;
@@ -88,8 +88,8 @@ const filterLongWords = function(word=[] ,i){
 const a = [1,3,5,3,3]; 
 
 const multiplyByTen = function(){
-    return a.reduce(function(prev,elm,i,array){
-        return prev * elm;
+    return a.map(function(elm,i,array){
+        return elm * 10;
     })
 }
 document.writeln(a.toString() +" elements multiply By Ten " + multiplyByTen().toString() + "<br/>");
@@ -130,3 +130,4 @@ console.log("Expected output of findLongestWord(['mum,'mu','compro']) is ['mum',
 // console.log("Expected output of elemEqualtothree([1,3,5,3,3]) is [3,3,3] " +testArrayEquality([3,3,3] ,elemEqualtothree(a)));
 // console.log("===============================================================================")
 // console.log("Expected output of productOfElements([1,2,3]) is 6 " +testFunction(6 ,productOfElements([1,2,3])))
+
