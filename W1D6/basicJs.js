@@ -131,6 +131,18 @@ console.log("Expected output of findLongestWord(['mum,'mu','compro']) is ['mum',
 // console.log("Expected output of elemEqualtothree([1,3,5,3,3]) is [3,3,3] " +testArrayEquality([3,3,3] ,elemEqualtothree(a)));
 // console.log("===============================================================================")
 // console.log("Expected output of productOfElements([1,2,3]) is 6 " +testFunction(6 ,productOfElements([1,2,3])))
-
-
-
+var aa = "bbb";
+function bek(){
+    
+}
+console.log(aa);
+if ('false') {
+alert('true');
+} else {
+alert('false');
+}
+if (null) { 
+    alert('null'); 
+    } else { 
+    alert('undefined?'); 
+    }
