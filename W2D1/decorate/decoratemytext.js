@@ -34,8 +34,6 @@ function decorate(){
          
     }
 
-
-    
     blnBtn.onclick = showAlrt;
     btn.onclick = styleTextarea;
     

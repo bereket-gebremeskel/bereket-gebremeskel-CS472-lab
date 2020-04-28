@@ -32,7 +32,9 @@ function func() {
     }
 
     let filterWords = (words,n) => {
-       return words.filter((elem, i, array) => elem > n);
+        let filterdWords = words.filter((elem, i, array) =>  elem.length > n);
+        console.log(filterdWords);
+       return filterWords;
     }
 
     addbtn.onclick = calc;
