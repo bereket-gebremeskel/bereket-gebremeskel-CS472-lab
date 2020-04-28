@@ -11,6 +11,7 @@ function func() {
         let multResult =multiply(nums);
         let filterdWords = filterWords(words,i);
         let revStr = reverse("hello");
+    
         document.getElementById("sum1").value =sumResult;
         document.getElementById("mult").value =multResult;
 
@@ -36,6 +37,8 @@ function func() {
         console.log(filterdWords);
        return filterWords;
     }
+
+   
 
     addbtn.onclick = calc;
 }
