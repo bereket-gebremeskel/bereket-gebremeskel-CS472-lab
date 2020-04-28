@@ -33,7 +33,7 @@ function func() {
     }
 
     let filterWords = (words,n) => {
-        let filterdWords = words.filter((elem, i, array) =>  elem.length > n);
+        let filterdWords = words.find((elem, i, array) =>  elem.length > n);
         console.log(filterdWords);
        return filterWords;
     }
