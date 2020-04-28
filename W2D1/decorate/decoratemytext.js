@@ -1,6 +1,7 @@
 window.onload = decorate;
 
 function decorate(){
+    "user strict";
     let btn = document.getElementById("btn");
     let blnBtn = document.getElementById("bling");
     let textArea = document.getElementById("txt");

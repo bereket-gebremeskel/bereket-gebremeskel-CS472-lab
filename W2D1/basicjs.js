@@ -1,6 +1,6 @@
 window.onload= func;
 function func() {
-    // "user strict";
+     "user strict";
     let addbtn = document.getElementById("addbtn");
     
     function calc(){
@@ -33,12 +33,15 @@ function func() {
     }
 
     let filterWords = (words,n) => {
-        let filterdWords = words.find((elem, i, array) =>  elem.length > n);
-        console.log(filterdWords);
+    //     let ww = ["mum","mu","bereket","jerry"];
+    //   const x =  ww.findIndex(x => x.length > 3);
+     
+        let filterdWords = words.filter((elem, i, array) =>  elem.length > n);
+        console.log("filter longest words that are greater than 3 :" +filterdWords);
        return filterWords;
     }
 
    
-
+  
     addbtn.onclick = calc;
 }
