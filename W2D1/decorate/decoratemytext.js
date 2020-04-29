@@ -1,3 +1,4 @@
+
 window.onload = decorate;
 
 function decorate(){
@@ -35,11 +36,11 @@ function decorate(){
     }
 
     let bigLatain = () => {
-        let word = document.getElementById("igpayword")
+        let word = document.getElementById("igpayword");
         let firschar = word.value.charAt(0) ;
-
+    var x;
         if(firschar== 'a' || firschar== 'e' ||firschar== 'i' || firschar== 'o' ||firschar==  'u' ){
-         console.log(word)
+         console.log(word);
          word.value =  word.value + 'yay';
         }else{
             word.value.substring(1,word.length);
@@ -53,12 +54,12 @@ function decorate(){
         if(word.value.length >= 5){
             word.value = 'Malkovich';
         }
-    }
+    };
 
     blnBtn.onclick = styleByBlButton;
     btn.onclick = styleTextarea;
     igpayBtn.onclick = bigLatain;
     malkovitchbtn.onclick = malkovich;
 
-    
+    var x;
 }

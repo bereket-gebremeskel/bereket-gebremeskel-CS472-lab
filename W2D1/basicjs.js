@@ -39,7 +39,7 @@ function func() {
         let filterdWords = words.filter((elem, i, array) =>  elem.length > n);
         console.log("filter longest words that are greater than 3 :" +filterdWords);
        return filterWords;
-    }
+    };
 
    
   
