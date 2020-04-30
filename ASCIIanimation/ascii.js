@@ -1,12 +1,12 @@
 (function(){
     "use strict";
-    //gloabl variabls
+    //gloabl variables
     let speed = 250;
     let selecteAnimType = null;
     let timer =null;
     let animations = null;
 
-    //DOM initializer
+    //called after the page is fully loaded and intializes DOM elements
     window.onload = function(){
         let turboBtn = document.getElementById("turbo");
         let animStarter = document.getElementById("start");
